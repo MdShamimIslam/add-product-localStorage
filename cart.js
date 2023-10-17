@@ -40,7 +40,7 @@ const ShowProductsToLocalStorage = ()=>{
     for(const product in saveCart){
         const quantity = saveCart[product];
         displayShowProduct (product,quantity)
-        console.log(product,quantity);
+     
     }
 }
 ShowProductsToLocalStorage();
